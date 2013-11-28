@@ -1,12 +1,12 @@
-# Harness::Varnish
+# Harness::Actionview
 
-TODO: Write a gem description
+Forwards template rendering times to harness.
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
-    gem 'harness-varnish'
+    gem 'harness-actionview'
 
 And then execute:
 
@@ -14,11 +14,15 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install harness-varnish
+    $ gem install harness-actionview
 
 ## Usage
 
-TODO: Write usage instructions here
+All you need to do is require the file:
+
+```ruby
+require 'harness-actionview'
+```
 
 ## Contributing
 
